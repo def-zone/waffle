@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-gray-900 h-screen flex items-center justify-center">
+      <div>
+        <div className="font-bold text-blue-400 text-3xl mb-2">
+          We comming soon.
+        </div>
+        <div className="text-gray-300 text-center">
+          <FontAwesomeIcon icon={faCoffee} />
+          <FontAwesomeIcon icon={faCoffee} />
+          <FontAwesomeIcon icon={faCoffee} />
+        </div>
+      </div>
     </div>
   );
 }

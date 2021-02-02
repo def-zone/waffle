@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/waffle/static/css/main.5fd73db2.chunk.css",
+    "main.js": "/waffle/static/js/main.f4ab01f9.chunk.js",
+    "main.js.map": "/waffle/static/js/main.f4ab01f9.chunk.js.map",
+    "runtime-main.js": "/waffle/static/js/runtime-main.0a5f787f.js",
+    "runtime-main.js.map": "/waffle/static/js/runtime-main.0a5f787f.js.map",
+    "static/js/2.cd370979.chunk.js": "/waffle/static/js/2.cd370979.chunk.js",
+    "static/js/2.cd370979.chunk.js.map": "/waffle/static/js/2.cd370979.chunk.js.map",
+    "static/js/3.01b5ae7f.chunk.js": "/waffle/static/js/3.01b5ae7f.chunk.js",
+    "static/js/3.01b5ae7f.chunk.js.map": "/waffle/static/js/3.01b5ae7f.chunk.js.map",
+    "index.html": "/waffle/index.html",
+    "static/css/main.5fd73db2.chunk.css.map": "/waffle/static/css/main.5fd73db2.chunk.css.map",
+    "static/js/2.cd370979.chunk.js.LICENSE.txt": "/waffle/static/js/2.cd370979.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a5f787f.js",
+    "static/js/2.cd370979.chunk.js",
+    "static/css/main.5fd73db2.chunk.css",
+    "static/js/main.f4ab01f9.chunk.js"
+  ]
+}

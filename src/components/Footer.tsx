@@ -1,19 +1,20 @@
 import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { faLayerGroup } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
-        <div className="bg-gray-800 text-gray-100 p-4 md:px-20 md:py-10 mt-10">
+        <div className="bg-gray-800 text-gray-100 p-4 md:px-20 md:py-10">
             <div className="md:flex items-center">
                 <div className="md:w-3/4">
                     <div className="mb-3 flex items-center">
                         <FontAwesomeIcon icon={faLayerGroup} size="3x" />
-                        <div className="text-2xl font-bold ml-4">Waffle</div>
+                        <div className="text-2xl font-bold ml-4"><Link to="/">Waffle</Link></div>
                     </div>
                     <div className="py-5">
-                        <a href="/term" className="text-gray-400 hover:text-gray-300 mr-10">Term & Conditions</a>
-                        <a href="/privacy" className="text-gray-400 hover:text-gray-300 mr-10">Privacy Policy</a>
+                        <Link to="/term" className="text-gray-400 hover:text-gray-300 mr-10">Term & Conditions</Link>
+                        <Link to="/privacy" className="text-gray-400 hover:text-gray-300 mr-10">Privacy Policy</Link>
                         <a href="/access" className="text-gray-400 hover:text-gray-300 mr-10">Accessbility</a>
                         <a href="/legal" className="text-gray-400 hover:text-gray-300">Legal</a>
                     </div>

@@ -4,13 +4,13 @@ export default function Brand() {
             <div className="text-3xl font-bold text-center mb-20 text-gray-600">
                 Many companies are using
             </div>
-            <div className="flex justify-between mb-20">
+            <div className="flex flex-wrap justify-between mb-20">
                 <img src="https://gw.alipayobjects.com/zos/rmsportal/qImQXNUdQgqAKpPgzxyK.svg" alt="brand" />
                 <img src="https://gw.alipayobjects.com/zos/rmsportal/LqRoouplkwgeOVjFBIRp.svg" alt="brand" />
                 <img src="https://gw.alipayobjects.com/zos/rmsportal/TLCyoAagnCGXUlbsMTWq.svg" alt="brand" />
                 <img src="https://gw.alipayobjects.com/zos/rmsportal/HmCGMKcJQMwfPLNCIhOH.svg" alt="brand" />
             </div>
-            <div className="flex justify-between">
+            <div className="flex flex-wrap justify-between">
                 <img src="https://gw.alipayobjects.com/zos/rmsportal/aqldfFDDqRVFRxqLUZOk.svg" alt="brand" />
                 <img src="https://gw.alipayobjects.com/zos/rmsportal/rqNeEFCGFuwiDKHaVaPp.svg" alt="brand" />
                 <img src="https://gw.alipayobjects.com/zos/rmsportal/FdborlfwBxkWIqKbgRtq.svg" alt="brand" />

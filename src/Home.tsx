@@ -3,7 +3,7 @@ import { HappyNews, Mention, MobileLogin } from "./svg/UnDraw"
 const Home = () => {
     return (
         
-            <div className="md:p-20">
+            <div className="p-4 md:p-20">
                 <div className="md:flex mt-10 items-center mb-20">
                     <div className="md:w-1/2 flex justify-center">
                         <MobileLogin />
